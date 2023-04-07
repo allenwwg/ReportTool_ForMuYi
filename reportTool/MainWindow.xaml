@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:Class="ReportGenerator.MainWindow" Title="Report Generator" Height="250" Width="450" MinHeight="250" ResizeMode="CanResize" HorizontalAlignment="Center" VerticalAlignment="Top" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid>
+        <Label Name="labIn" Content="" HorizontalAlignment="Left" Margin="21,46,0,0" VerticalAlignment="Top" Width="290" RenderTransformOrigin="0.499,2.422" />
+        <Button Content="OK" HorizontalAlignment="Left" Margin="21,178,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.184,0.706" Click="Button_Click_2" />
+        <Button Content="Cancel" HorizontalAlignment="Left" Margin="158,178,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.187,-0.653" Click="Button_Click_3" />
+        <Label Name="labOut" Content="" HorizontalAlignment="Left" Margin="199,71,0,0" VerticalAlignment="Top" Width="169" />
+        <Button Content="Select Input Folder..." HorizontalAlignment="Left" Margin="20,20,0,0" VerticalAlignment="Top" Width="118" Click="Button_Click" />
+        <Label Name="labPipe" Content="Pipe Margin:" HorizontalAlignment="Left" Margin="19,71,0,0" VerticalAlignment="Top" Width="90" />
+        <Label Content="%" HorizontalAlignment="Left" Margin="170,99,0,0" VerticalAlignment="Top" />
+        <TextBox Name="txtPipe" HorizontalAlignment="Left" Height="23" Margin="130,71,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Width="38" MaxLines="1" MaxLength="2" TextChanged="txtPipe_TextChanged" />
+        <TextBox Name="txtAdh" HorizontalAlignment="Left" Height="23" Margin="130,99,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="38" MaxLines="1" MaxLength="2" />
+        <Label Content="%" HorizontalAlignment="Left" Margin="170,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.251,0.639" />
+        <Label Name="labAdhesive" Content="Adhesive Margin:" HorizontalAlignment="Left" Margin="20,99,0,0" VerticalAlignment="Top" />
+        <Label x:Name="labProject" Content="Project Name:" HorizontalAlignment="Left" Margin="19,149,0,0" VerticalAlignment="Top" Width="90" />
+        <TextBox x:Name="txtProject" HorizontalAlignment="Left" Height="23" Margin="130,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" MaxLines="1"/>
+        <Label x:Name="labPipeLossRate" Content="Pipe Loss Rate:" HorizontalAlignment="Left" Margin="21,124,0,0" VerticalAlignment="Top" Width="100" />
+        <TextBox x:Name="txtPipeLossRate" HorizontalAlignment="Left" Height="23" Margin="130,124,0,0" TextWrapping="Wrap" Text="0.02" VerticalAlignment="Top" Width="38" MaxLines="1" MaxLength="5" />
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+Tips:
+
+1. Please run 'ReportGenerator.exe' in windows with Office installed.
+2. Select input folder with the files in 'muyi' folder, file names must keep same.
+3. input pipe margin and adhesive margin
+4. click 'OK' to output report as 'xlsx' file 
